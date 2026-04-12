@@ -29,7 +29,7 @@ export default function App() {
       <BinaryBackground />
       
       {/* Global Background Mesh */}
-      <div className="fixed inset-0 bg-gradient-mesh pointer-events-none z-0 opacity-50" />
+      <div className="fixed inset-0 bg-gradient-mesh pointer-events-none z-0 opacity-20 dark:opacity-50" />
       
       {/* Noise Overlay */}
       <div className="fixed inset-0 noise pointer-events-none z-[1]" />
